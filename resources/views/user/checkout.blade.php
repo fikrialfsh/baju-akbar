@@ -57,7 +57,16 @@
                     </tbody>
                   </table>
                   <div class="form-group">
-                    <label for="">Catatan</label>
+                      
+                        <select class="form-control kurir" name="couriers">
+                            <option value="0">-- pilih kurir --</option>
+                            <option value="jne">JNE</option>
+                            <option value="pos">POS</option>
+                            <option value="tiki">TIKI</option>
+                        </select>
+                    </div>
+                  <div class="form-group">
+                    <label for="">Catatan untuk penjual</label>
                     <textarea name="pesan" class="form-control"></textarea>
                   </div>
                   <div class="form-group">
@@ -70,10 +79,10 @@
                   <div class="form-group">
                   <label for="">Pilih Metode Pembayaran</label>
                     <select name="metode_pembayaran" id="" class="form-control">
-                      <option value="trf">Transfer</option>
-                      <option value="cod">Cod</option>
+                      <option value="trf">Transfer Bank (Manual)</option>
+                      
                     </select>
-                    <small>Jika memilih cod maka akan dikenakan biaya tambahan sebesar Rp. 10.000,00</small>
+                    <!-- <small>Jika memilih cod maka akan dikenakan biaya tambahan sebesar Rp. 10.000,00</small> -->
                   </div>
                  
 

@@ -80,13 +80,19 @@ Route::group(['middleware' => ['auth','checkRole:customer']],function(){
     Route::get('/checkout','user\CheckoutController@index')->name('user.checkout');
     Route::post('/pesanan/simpan','user\OrderController@simpan')->name('user.order.simpan');
     Route::get('/pesanan/sukses','user\OrderController@sukses')->name('user.order.sukses');
-    Route::get('/pesanan','user\OrderController@index')->name('user.order');
+    Route::get('/bayar','user\OrderController@index')->name('user.order');
     Route::get('/pesanan/detail/{id}','user\OrderController@detail')->name('user.order.detail');
     Route::get('/pesanan/pesananditerima/{id}','user\OrderController@pesananditerima')->name('user.order.pesananditerima');
     Route::get('/pesanan/pesanandibatalkan/{id}','user\OrderController@pesanandibatalkan')->name('user.order.pesanandibatalkan');
     Route::get('/pesanan/pembayaran/{id}','user\OrderController@pembayaran')->name('user.order.pembayaran');
     Route::post('/order/kirimbukti/{id}','user\OrderController@kirimbukti')->name('user.order.kirimbukti');
+    //desain
     Route::get('/desain-sendiri', 'user\DesainController@index')->name('desain');
+    //blm bayar
+    Route::get('/belum-bayar','user\RiwayatController@bayar')->name('belum-bayar');
+    Route::get('/riwayat','user\RiwayatController@riwayat')->name('riwayat');
+    Route::get('/dalam-proses','user\RiwayatController@proses')->name('proses');
+
 });
 
 Route::get('/ongkir', 'OngkirController@index');

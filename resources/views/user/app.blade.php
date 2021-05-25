@@ -98,11 +98,40 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             ->where('status_order_id','!=',6)
                             ->first();
                           ?>
-                        <a href="{{ route('user.order') }}" class="site-cart">
+						<li class="nav-item dropdown active">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true"
+							    aria-expanded="false">
+								Riwayat Transaksi
+							</a>
+							<ul class="dropdown-menu mega-menu ">
+								<li>
+									<div class="row">
+										<div class="col-md-4 media-list span4 text-left">
+										<ul>
+												<li class="media-mini mt-3">
+													<a href="{{ route('belum-bayar') }}">Belum Bayar</a>
+												</li>
+												<div class="dropdown-divider"></div>
+												<li class="">
+													<a href="#">Menunggu Konfirmasi</a>
+												</li>
+												<div class="dropdown-divider"></div>
+												<li>
+													<a href="#">Dalam Proses</a>
+												</li>
+										</ul>
+									</div>
+								</li>
+							</ul>	
+												
+
+
+
+                        <!-- <a href="{{ route('user.order') }}" class="site-cart">
                         <i class="fas fa-history"></i>
                             <span class="count">{{ $total_order->jumlah }}</span>
                             </a>
-                        </li>
+                        </li> -->
                     @else
                     <div class="dropdown">
                             <a class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -171,6 +200,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li class="{{ Request::path() === 'desain-sendiri' ? '' : '' }}">
 							<a class="nav-link" href="{{ route('desain') }}">Desain Sendiri</a>
 						</li>
+						
 						
 					</ul>
 

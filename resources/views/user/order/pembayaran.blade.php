@@ -26,7 +26,7 @@
                         <div class="card-header">{{ $key->bank_name }}</div>
                         <div class="card-body">
                         <h5 class="card-title">{{ $key->no_rekening }}</h5>
-                        <p class="card-text">Atas Nama {{ $key->atas_nama }}</p>
+                        <p class="text-dark">a/n {{ $key->atas_nama }}</p>
                         </div>
                         </div>
                         </div>

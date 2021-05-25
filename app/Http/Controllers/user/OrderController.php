@@ -42,7 +42,7 @@ class OrderController extends Controller
             'dicek' => $dicek,
             'histori'=> $histori
         );
-        return view('user.order.order',$data);
+        return view('user.order.belumbayar',$data);
     }
 
     public function detail($id)
