@@ -21,10 +21,10 @@
                 @foreach($dicek as $o)
                 <tr>
                     <td>{{ $o->invoice }}</td>
-                    <td>{{ $o->subtotal + $o->biaya_cod }}</td>
+                    <td>Rp. {{ $o->subtotal + $o->biaya_cod }}</td>
                     <td>
                         @if($o->name == 'Perlu Di Cek')
-                        Sedang Di Cek
+                        Sedang Dicek 
                         @else
                         {{ $o->name }}
                         @endif

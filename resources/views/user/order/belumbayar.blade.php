@@ -32,7 +32,7 @@
                 @foreach($order as $o)
                 <tr>
                     <td>{{ $o->invoice }}</td>
-                    <td>{{ $o->subtotal + $o->biaya_cod }}</td>
+                    <td>Rp. {{ $o->subtotal + $o->biaya_cod }}</td>
                     <td>{{ $o->name }}</td>
                     <td>
                     <a href="{{ route('user.order.pembayaran',['id' => $o->id]) }}" class="btn btn-success">Bayar</a>

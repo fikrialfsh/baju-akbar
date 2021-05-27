@@ -104,7 +104,7 @@ class OrderController extends Controller
 
     public function pesananditerima($id)
     {
-        //function untuk menerima pesanan
+        // untuk menerima pesanan
         $order = Order::findOrFail($id);
         $order->status_order_id = 5;
         $order->save();
@@ -115,7 +115,7 @@ class OrderController extends Controller
 
     public function pesanandibatalkan($id)
     {
-        //function untuk membatalkan pesanan
+        // untuk membatalkan pesanan
         $order = Order::findOrFail($id);
         $order->status_order_id = 6;
         $order->save();
