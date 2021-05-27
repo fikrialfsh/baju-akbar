@@ -14,9 +14,9 @@
     <div class="row">
         <div class="col-md-12 text-center">
         <span class="icon-check_circle display-3 text-success"></span>
-        <h2 class="display-3 text-black">Terimakasih!</h2>
-        <p class="lead mb-5">Pesanan Kamu Berhasil Dibuat Dengan No Invoice Silahkan Konfirmasi Pembayaran Lewat Menu Konfirmasi Pembayaran.</p>
-        <p><a href="{{ route('user.order') }}" class="btn btn-sm btn-primary">Menu Pembayaran</a></p>
+        <h2 class="display-3 text-black">PESANAN DIBUAT</h2>
+        <p class="lead mb-5">Pesanan Kamu Berhasil Dibuat, Silahkan Konfirmasi Pembayaran.</p>
+        <p><a href="{{ route('user.order') }}" class="btn btn-sm btn-primary">Konfirmasi Pembayaran</a></p>
         </div>
     </div>
     </div>

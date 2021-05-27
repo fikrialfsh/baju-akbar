@@ -113,11 +113,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 												</li>
 												<div class="dropdown-divider"></div>
 												<li class="">
-													<a href="#">Menunggu Konfirmasi</a>
+													<a href="{{ route('proses') }}">Dalam Proses</a>
 												</li>
 												<div class="dropdown-divider"></div>
 												<li>
-													<a href="#">Dalam Proses</a>
+													<a href="{{ route('riwayat') }}">Selesai/Dibatalkan</a>
 												</li>
 										</ul>
 									</div>

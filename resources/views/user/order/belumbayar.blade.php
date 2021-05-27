@@ -22,7 +22,7 @@
            <table class="table table-bordered">
             <thead>
                 <tr>
-                <th class="product-thumbnail">Invoice</th>
+                <th class="product-thumbnail">Kode Invoice</th>
                 <th class="product-name">Total</th>
                 <th class="product-price">Status</th>
                 <th class="product-quantity" width="20%">Aksi</th>
