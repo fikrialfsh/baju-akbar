@@ -13,11 +13,11 @@ class OrderStatusSeeder extends Seeder
     {
         $data = [
             ['name' => 'Belum Bayar'],
-            ['name' => 'Perlu Di Cek'],
-            ['name' => 'Telah Di Bayar'],
-            ['name' => 'Barang Di Kirim'],
+            ['name' => 'Perlu Dicek'],
+            ['name' => 'Telah Dibayar'],
+            ['name' => 'Sedang Dikirim'],
             ['name' => 'Barang Telah Sampai'],
-            ['name' => 'Pesanan Di Batalkan'],
+            ['name' => 'Pesanan Dibatalkan'],
         ];
         Orderstatus::insert($data);
     }

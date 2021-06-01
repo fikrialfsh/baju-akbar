@@ -234,8 +234,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3>About Us</h3>
 					</div>
 					<div class="footer-text">
-						<p>Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at
-							tellus. Nulla porttitor accumsana tincidunt.</p>
+						<p>Akbar creative akan melayani dengan setulus hati</p>
 						<ul class="footer-social text-left mt-lg-4 mt-3">
 
 							<li class="mx-2">
@@ -273,16 +272,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-lg-3 footer-grid-w3ls">
 					<div class="footer-title">
-						<h3>Get in touch</h3>
+						<h3>Hubungi Kami</h3>
 					</div>
 					<div class="contact-info">
-						<h4>Location :</h4>
-						<p>0926k 4th block building, king Avenue, New York City.</p>
+						<h4>Alamat :</h4>
+						<p>Jatiwangi Majalengka</p>
 						<div class="phone">
 							<h4>Contact :</h4>
-							<p>Phone : +121 098 8907 9987</p>
+							<p>Phone : +628122812718</p>
 							<p>Email :
-								<a href="mailto:info@example.com">info@example.com</a>
+								<a href="mailto:aliakbbar@gmail.com">aliakbbar@gmail.com</a>
 							</p>
 						</div>
 					</div>
