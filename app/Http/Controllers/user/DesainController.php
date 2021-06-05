@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\user;
 
 use App\Http\Controllers\Controller;
+use App\desainsendiri;
 use Illuminate\Http\Request;
 
 class DesainController extends Controller
@@ -36,7 +37,24 @@ class DesainController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        if($request->hasFile('listGambar')){
+            $listGambar = $request->file('listGambar');
+            foreach ($listGambar as $gambar) {
+                $nama_file = time()."_".$gambar->getClientOriginalName();
+                $tujuan_upload = 'uploads';
+                $gambar -> move($tujuan_upload,$nama_file);
+                $data[]=$nama_file;
+            }
+            desainsendiri::create([
+                'tipe_kaos' => $request->tipe_kaos,
+                'warna' => $request->warna,
+                'ukuran' => $request->ukuran,
+                'jumlah' => $request->jumlah,
+                'description' => $request->description,
+                'gambardesain'          => json_encode($data),
+            ]);
+        }
+        return redirect()->route('upload.desain')->with('status','Berhasil Menambah Produk Baru');
     }
 
     /**

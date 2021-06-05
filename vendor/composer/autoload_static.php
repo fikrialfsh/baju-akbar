@@ -546,6 +546,7 @@ class ComposerStaticInite412bff8263a8f27afd5744cb0149766
         'App\\Province' => __DIR__ . '/../..' . '/app/Province.php',
         'App\\Rekening' => __DIR__ . '/../..' . '/app/Rekening.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\desainsendiri' => __DIR__ . '/../..' . '/app/desainsendiri.php',
         'Asm89\\Stack\\Cors' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/Cors.php',
         'Asm89\\Stack\\CorsService' => __DIR__ . '/..' . '/asm89/stack-cors/src/Asm89/Stack/CorsService.php',
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',

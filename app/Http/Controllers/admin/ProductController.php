@@ -55,7 +55,7 @@ class ProductController extends Controller
 
             ]);
 
-            return redirect()->route('admin.product')->with('status','Berhasil Menambah Produk Baru');
+            return redirect()->route('admin.product')->with('status','Berhasil Mengupload desain');
         }
     }
 

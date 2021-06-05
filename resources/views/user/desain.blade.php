@@ -39,39 +39,35 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 </ul>
                             </div>
                           @endif
-                            <form action="{{ url('/add-barang') }}" method="post" enctype="multipart/form-data">
+                            <form action="{{ route('upload.desain') }}" method="post" enctype="multipart/form-data">
                                 @csrf
                                 <div class="form-group">
                                     <label>Tipe Kaos<em>*</em></label>
-                                    <input type="text" class="form-control" name="tipe" style="text-transform: capitalize;">
+                                    <input type="text" class="form-control" name="tipe_kaos" style="text-transform: capitalize;">
                                 </div>
                                 <div class="form-group">
                                     <label>Warna<em>*</em></label>
-                                    <input type="number" class="form-control" name="warna" >
+                                    <input type="text" class="form-control" name="warna" >
                                 </div>
                                 <div class="form-group">
                                     <label>Ukuran<em>*</em></label> 
-                                    <input type="number" class="form-control" name="num"></span>
+                                    <input type="text" class="form-control" name="ukuran"></span>
                                 </div>
                                 <div class="form-group">
                                   <label>Jumlah<em>*</em></label>
-                                  <input type="text" class="form-control" name="keterangan" >
+                                  <input type="number" class="form-control" name="jumlah" >
                               </div>
-                                <div class="form-group">
-                                  <label>Desain Depan<em>*</em></label>
-                                  <input type="file" class="form-control" name="image">
+                              <div class="form-group">
+                                <label>Upload Desain</label> <br>
+                                <input type="file" name="listGambar[]" accept="image/*" multiple>
+                             </div>
+                             <div class="form-group">
+                                    <label>Deskripsi<em>*</em></label> 
+                                    <input type="text" class="form-control" name="description"></span>
                                 </div>
-                                <div class="form-group">
-                                  <label>Desain Belakang<em>*</em></label>
-                                  <input type="file" class="form-control" name="image">
-                                </div>
-                                <div class="form-group">
-                                  <label for="inputlg">Deskripsi<em>*</em></label>
-                                  <input type="text" class="form-control input-lg" name="desk">
-                                </div>
-                
+
                                 <button class="btn btn-primary btn-flat btn-block btn-sm">Submit Desain</button>
-    
+                                
                             </form>
                         </div>
                     </div>

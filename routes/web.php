@@ -88,6 +88,7 @@ Route::group(['middleware' => ['auth','checkRole:customer']],function(){
     Route::post('/order/kirimbukti/{id}','user\OrderController@kirimbukti')->name('user.order.kirimbukti');
     //desain
     Route::get('/desain-sendiri', 'user\DesainController@index')->name('desain');
+    Route::post('/desain-sendiri', 'user\DesainController@store')->name('upload.desain');
     //blm bayar
     Route::get('/belum-bayar','user\RiwayatController@bayar')->name('belum-bayar');
     Route::get('/riwayat','user\RiwayatController@riwayat')->name('riwayat');

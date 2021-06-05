@@ -34,7 +34,7 @@ class CheckoutController extends Controller
 
         //lalu hitung ongkirnya
         $cost = RajaOngkir::ongkosKirim([
-            'origin'  => $alamat_toko->id,
+            'origin'  => $alamat_toko->id_toko,
             'destination' => $city_destination,
             'weight' => $berattotal,
             'courier' => 'jne'
