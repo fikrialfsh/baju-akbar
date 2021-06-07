@@ -1,9 +1,16 @@
 @extends('user.app')
 @section('content')
+<div class="bg-light py-3">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black"></strong></div>
+    </div>
+    </div>
+</div>
 
  <!-- Latest Product -->
  <div class="banner">
-			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
 					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
 					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -27,7 +34,7 @@
 							<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Shop Now</a>
 
 						</div>
-					</div>
+					</div> -->
 					<div class="carousel-item item3">
 						<div class="carousel-caption text-center">
 							<h3>Men’s eyewear

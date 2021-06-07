@@ -1,5 +1,13 @@
 @extends('user.app')
 @section('content')
+<div class="bg-light py-3">
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Produk Detail</strong></div>
+    </div>
+    </div>
+</div>
+
 <div class="container">
 				<div class="inner-sec-shop pt-lg-4 pt-3">
 					<div class="row">
@@ -20,8 +28,8 @@
 									<h3>{{ $produk->name }}</h3>
 									<p><span class="item_price">Rp. {{ $produk->price }}</span>
 									</p>
-									 Stok : {{ $produk->stok }}
-								
+									 Stok : {{ $produk->stok }}<br>
+									<div><br></div>
 									<div class="color-quantity">
 										<div class="color-quality-right">
 											<h5>Jumlah :</h5>
@@ -37,8 +45,8 @@
                                                         @endauth
                                                     @endif
                                                     <input type="hidden" name="products_id" value="{{ $produk->id }}">
-                                                    <input type="text" name="qty" class="form-control text-center" value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1">
-														<button type="submit" class="googles-cart pgoogles-cart">
+                                                    <input type="text" name="qty" class="form-control " value="1" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1"><br>
+														<button type="submit" class="btn btn-dark">
 															Keranjang
 														</button>
 														
@@ -57,21 +65,18 @@
 										<div class="resp-tabs-container">
 											<!--/tab_one-->
 											<div class="tab1">
-					
-												<div class="single_page">
-													<h6>Deskripsi</h6>
+												<div class="single_page">	
 													<p>{{ $produk->description }}</p>
-													
 												</div>
 											</div>
 											<!--//tab_one-->
-											<div class="tab2">
+											<!-- <div class="tab2">
 					
 											</div>
 											<div class="tab3">
 					
 												
-											</div>
+											</div> -->
 										</div>
 									</div>
 								</div>

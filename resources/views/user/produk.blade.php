@@ -3,7 +3,7 @@
 <div class="bg-light py-3">
     <div class="container">
     <div class="row">
-        <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Shop</strong></div>
+        <div class="col-md-12 mb-0"><a href="index.html">Home</a> <span class="mx-2 mb-0">/</span> <strong class="text-black">Produk List</strong></div>
     </div>
     </div>
 </div>
@@ -52,9 +52,9 @@
                 <div class="block-4-text p-4">
                 <h3><a href="{{ route('user.produk.detail',['id' =>  $produk->id]) }}">{{ $produk->name }}</a></h3>
                 <p class="mb-0">RP {{ $produk->price }}</p>
-                <a href="{{ route('user.produk.detail',['id' =>  $produk->id]) }}" class="btn btn-primary mt-2">Detail</a>
+                <a href="{{ route('user.produk.detail',['id' =>  $produk->id]) }}" class="btn btn-dark">Detail</a>
                 </div>
-            
+                <button type="submit" class="googles-cart pgoogles-cart">
             </div>
             </div>
             @endforeach

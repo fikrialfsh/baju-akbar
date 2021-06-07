@@ -52,7 +52,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</h1>
 				</div>
 
-				<div class="col-md-3 top-info-cart text-right mt-lg-4">
+				<div class="col-md-3 top-info-cart text-left mt-lg-4">
 					<ul class="cart-inner-info">
 						@if (Route::has('login'))
                     @auth
@@ -167,8 +167,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <li class="{{ Request::path() === 'kontak' ? '' : '' }}">
 							<a class="nav-link" href="{{ route('kontak') }}">Contact</a>
 						</li>
-                        <li class="{{ Request::path() === 'desain-sendiri' ? '' : '' }}">
-							<a class="nav-link" href="{{ route('desain') }}">Desain Sendiri</a>
+                        <li class="{{ Request::path() === 'alamat' ? '' : '' }}">
+							<a class="nav-link" href="{{ route('user.alamat') }}">Atur Alamat</a>
 						</li>
 						
 						
@@ -204,7 +204,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mail-grid-text-info">
 								<h3>Genuine Product</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<p>Produk Asli, Handmade</p>
 							</div>
 						</div>
 						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
@@ -213,7 +213,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mail-grid-text-info">
 								<h3>Secure Products</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<p>Produk Aman Dipakai</p>
 							</div>
 						</div>
 						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
@@ -222,7 +222,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mail-grid-text-info">
 								<h3>Cash on Delivery</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<p>Sistem Pembayaran COD</p>
 							</div>
 						</div>
 						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
@@ -231,7 +231,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 							<div class="mail-grid-text-info">
 								<h3>Easy Delivery</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur</p>
+								<p>Memudahkan dalam hal Pemesanan</p>
 							</div>
 						</div>
 					</div>
@@ -302,19 +302,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</div>
 					<ul class="links">
 						<li>
-							<a href="index.html">Home</a>
+							<a href="{{ route('home') }}">Home</a>
 						</li>
 						<li>
-							<a href="about.html">About</a>
+							<a href="{{ route('user.produk') }}">Product</a>
 						</li>
 						<li>
-							<a href="404.html">Error</a>
+							<a href="{{ route('kontak') }}">Contact</a>
 						</li>
 						<li>
-							<a href="shop.html">Shop</a>
-						</li>
-						<li>
-							<a href="contact.html">Contact Us</a>
+							<a  href="{{ route('user.alamat') }}">Atur Alamat</a>
 						</li>
 					</ul>
 				</div>

@@ -59,18 +59,13 @@
         </div>
         <div class="col-md-5 ml-auto">
         <div class="p-4 border mb-3">
-            <span class="d-block text-primary h6 text-uppercase">New York</span>
-            <p class="mb-0">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            <span class="d-block text-primary h6 text-uppercase">MAJALENGKA</span>
+            <p class="mb-0">Majalengka, JATIWANGI CITY</p>
         </div>
         <div class="p-4 border mb-3">
-            <span class="d-block text-primary h6 text-uppercase">London</span>
-            <p class="mb-0">203 Fake St. Mountain View, San Francisco, California, USA</p>
+            <span class="d-block text-primary h6 text-uppercase">INDRAMAYU</span>
+            <p class="mb-0">Polindra, Jl. Raya lohbenerlama no.08</p>
         </div>
-        <div class="p-4 border mb-3">
-            <span class="d-block text-primary h6 text-uppercase">Canada</span>
-            <p class="mb-0">203 Fake St. Mountain View, San Francisco, California, USA</p>
-        </div>
-
         </div>
     </div>
     </div>
