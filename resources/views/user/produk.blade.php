@@ -54,6 +54,7 @@
                 <p class="mb-0">RP {{ $produk->price }}</p>
                 <a href="{{ route('user.produk.detail',['id' =>  $produk->id]) }}" class="btn btn-primary mt-2">Detail</a>
                 </div>
+            
             </div>
             </div>
             @endforeach

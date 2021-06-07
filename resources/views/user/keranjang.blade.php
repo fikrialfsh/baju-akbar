@@ -38,12 +38,14 @@
                 <td>
                     <div class="input-group mb-3" style="max-width: 120px;">
                     <div class="input-group-prepend">
-                        <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button>
+                        <!-- <button class="btn btn-outline-primary js-btn-minus" type="button">&minus;</button> -->
                     </div>
+                    
                     <input type="hidden" name="id[]" value="{{ $keranjang->id }}">
-                    <input type="text" name="qty[]" class="form-control text-center" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value="{{ $keranjang->qty }}">
+                    <input class ="form-control" name="qty[]" type="text" placeholder="" value="{{$keranjang->qty}}" readonly>
+                    <!-- <input type="text" name="qty[]" class="form-control text-center" placeholder="" aria-label="Example text with button addon" aria-describedby="button-addon1" value="{{ $keranjang->qty }}"> -->
                     <div class="input-group-append">
-                        <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button>
+                        <!-- <button class="btn btn-outline-primary js-btn-plus" type="button">&plus;</button> -->
                     </div>
                     </div>
 
@@ -65,7 +67,7 @@
         <div class="col-md-6">
         <div class="row mb-5">
             <div class="col-md-6 mb-3 mb-md-0">
-            <button type="submit" class="btn btn-primary btn-sm btn-block">Update Keranjang</button>
+            <!-- <button type="submit" class="btn btn-primary btn-sm btn-block">Update Keranjang</button> -->
             </div>
             </form>       
         </div>

@@ -22,6 +22,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link rel="stylesheet" href="{{ asset ('shop/css/shop.css') }}" type="text/css" />
 	<link rel="stylesheet" href="{{ asset ('shop/css/owl.carousel.css') }}" type="text/css" media="all">
 	<link rel="stylesheet" href="{{ asset ('shop/css/owl.theme.css') }}" type="text/css" media="all">
+	<link rel="stylesheet" type="text/css" href="{{ asset ('shop/css/jquery-ui1.css') }}">
+	<link href="{{ asset ('shop/css/easy-responsive-tabs.css') }}" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="{{ asset ('shop/css/flexslider.css') }}" type="text/css" media="screen" />
 	<link href="{{ asset ('shop/css/style.css') }}" rel='stylesheet' type='text/css' />
 	<link href="{{ asset ('shop/css/fontawesome-all.css') }}" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
@@ -193,6 +196,46 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	@yield('content')
 	<!-- about -->
 	<!--footer -->
+	<div class="testimonials p-lg-5 p-3 mt-4">
+					<div class="row last-section">
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-gift"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Genuine Product</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-shield-alt"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Secure Products</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-dollar-sign"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Cash on Delivery</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-truck"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Easy Delivery</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+					</div>
+				    </div>
 	<footer class="py-lg-5 py-3">
 		<div class="container-fluid px-lg-5 px-3">
 			<div class="row footer-top-w3layouts">
@@ -201,8 +244,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<h3>About Us</h3>
 					</div>
 					<div class="footer-text">
-						<p>Curabitur non nulla sit amet nislinit tempus convallis quis ac lectus. lac inia eget consectetur sed, convallis at
-							tellus. Nulla porttitor accumsana tincidunt.</p>
+						<p>Akbar creative akan melayani dengan setulus hati</p>
 						<ul class="footer-social text-left mt-lg-4 mt-3">
 
 							<li class="mx-2">
@@ -240,16 +282,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				</div>
 				<div class="col-lg-3 footer-grid-w3ls">
 					<div class="footer-title">
-						<h3>Get in touch</h3>
+						<h3>Hubungi Kami</h3>
 					</div>
 					<div class="contact-info">
-						<h4>Location :</h4>
-						<p>0926k 4th block building, king Avenue, New York City.</p>
+						<h4>Alamat :</h4>
+						<p>Jatiwangi Majalengka</p>
 						<div class="phone">
 							<h4>Contact :</h4>
-							<p>Phone : +121 098 8907 9987</p>
+							<p>Phone : +628122812718</p>
 							<p>Email :
-								<a href="mailto:info@example.com">info@example.com</a>
+								<a href="mailto:aliakbbar@gmail.com">aliakbbar@gmail.com</a>
 							</p>
 						</div>
 					</div>
