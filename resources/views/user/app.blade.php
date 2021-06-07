@@ -22,6 +22,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<link rel="stylesheet" href="{{ asset ('shop/css/shop.css') }}" type="text/css" />
 	<link rel="stylesheet" href="{{ asset ('shop/css/owl.carousel.css') }}" type="text/css" media="all">
 	<link rel="stylesheet" href="{{ asset ('shop/css/owl.theme.css') }}" type="text/css" media="all">
+	<link rel="stylesheet" type="text/css" href="{{ asset ('shop/css/jquery-ui1.css') }}">
+	<link href="{{ asset ('shop/css/easy-responsive-tabs.css') }}" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="{{ asset ('shop/css/flexslider.css') }}" type="text/css" media="screen" />
 	<link href="{{ asset ('shop/css/style.css') }}" rel='stylesheet' type='text/css' />
 	<link href="{{ asset ('shop/css/fontawesome-all.css') }}" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
@@ -226,6 +229,46 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	@yield('content')
 	<!-- about -->
 	<!--footer -->
+	<div class="testimonials p-lg-5 p-3 mt-4">
+					<div class="row last-section">
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-gift"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Genuine Product</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-shield-alt"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Secure Products</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-dollar-sign"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Cash on Delivery</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+						<div class="col-lg-3 footer-top-w3layouts-grid-sec">
+							<div class="mail-grid-icon text-center">
+								<i class="fas fa-truck"></i>
+							</div>
+							<div class="mail-grid-text-info">
+								<h3>Easy Delivery</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur</p>
+							</div>
+						</div>
+					</div>
+				    </div>
 	<footer class="py-lg-5 py-3">
 		<div class="container-fluid px-lg-5 px-3">
 			<div class="row footer-top-w3layouts">
