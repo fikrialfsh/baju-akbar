@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="form-group">
                                 <label>Deskripsi</label>
-                                <input name="description" id="" cols="20" rows="5" class="form-control" required>
+                                <input name="description" id="" cols="30" rows="10" class="form-control" required>
                                 </input>
                                 </div>
                                 <div class="text-right">
