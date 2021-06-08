@@ -46,9 +46,9 @@
                                     <input required type="file" name="image" class="form-control">
                                 </div>
                                 <div class="form-group">
-                                <label for="">Deskripsi</label>
-                                <textarea name="description" id="" cols="30" rows="10" class="form-control" required>
-                                </textarea>
+                                <label>Deskripsi</label>
+                                <input name="description" id="" cols="30" rows="10" class="form-control" required>
+                                </input>
                                 </div>
                                 <div class="text-right">
                                     <button type="submit" class="btn btn-success text-right">Simpan</button>

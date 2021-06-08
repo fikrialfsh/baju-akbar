@@ -8,6 +8,7 @@
     </div>
 </div>
 
+
  <!-- Latest Product -->
  <div class="banner">
 			<!-- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -34,6 +35,7 @@
 							<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Shop Now</a>
 
 						</div>
+<<<<<<< HEAD
 					</div> -->
 					<div class="carousel-item item3">
 						<div class="carousel-caption text-center">
@@ -51,6 +53,8 @@
 							</h3>
 							<a href="shop.html" class="btn btn-sm animated-button gibson-three mt-4">Shop Now</a>
 						</div>
+=======
+>>>>>>> c4cdf2fe703e8ea2fbc39ca71931068e85cd6b72
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -63,6 +67,8 @@
 				</a>
 			</div>
 			<!--//banner -->
+			</div>
+			<!--//banner -->
 		</div>
                     <div class="col-12">
                         <div class="row">
@@ -72,7 +78,7 @@
                                         <h3>Latest Products</h3>
                                     </div>
                                 </div>
-								
+
                                 <div class="row">
 
                                     <!-- Product -->
@@ -98,7 +104,7 @@
 													<a href="{{ route('user.produk.detail',['id' =>  $produk->id]) }}">
                                                     <button class="btn btn-outline-dark" type="button"><i class="fas fa-cart-plus me-2"></i>Detail</button>
                                                 </div>
-												
+
                                             </div>
                                         </div>
                                     </div>
@@ -109,7 +115,5 @@
                         </div>
                     </div>  
                 </div>
-                   
-                    
-
-    @endsection
+</div>
+@endsection
